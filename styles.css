@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #f9faf8;
+  --secondary-color: #e5e7eb;
+  --button-color: #3882f6;
+  --quote-color: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fefefe;
+}
+
+section {
+  padding: 0 20vw;
+}
+
+#logo {
+  margin: 0;
+  padding: 1em 0;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+#hero,
+footer {
+  background: #1f2937;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#hero-title {
+  font-family: 'Comfortaa', cursive;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+#quotes {
+  background: var(--secondary-color);
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: var(--quote-color);
+}
+
+.quote-author {
+}
+
+#copyright {
+  text-align: center;
+}
