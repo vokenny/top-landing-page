@@ -1,7 +1,7 @@
 :root {
   --primary-color: #f9faf8;
   --secondary-color: #e5e7eb;
-  --button-color: #3882f6;
+  --tertiary-color: #3882f6;
   --quote-color: #1f2937;
 }
 
@@ -80,8 +80,11 @@ footer {
   margin: 0;
   font-family: 'Comfortaa', cursive;
   font-size: 48px;
-  font-weight: 800;
   color: var(--primary-color);
+}
+
+.heading {
+  font-weight: 700;
 }
 
 #hero-img-container {
@@ -91,6 +94,7 @@ footer {
 #hero-img {
   width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .primary-cta {
@@ -99,13 +103,42 @@ footer {
   font-size: 20px;
   font-weight: 700;
   color: var(--primary-color);
-  background-color: var(--button-color);
-  border: 1px solid var(--button-color);
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
   border-radius: 8px;
 }
 
 .primary-cta:hover {
   cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.photos-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 5vw;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0;
+}
+
+.img-figure {
+  border: 5px solid var(--tertiary-color);
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.img-caption {
+  text-align: center;
 }
 
 #quotes {
