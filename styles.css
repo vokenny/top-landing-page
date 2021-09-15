@@ -143,12 +143,21 @@ h2 {
 
 #quotes {
   background: var(--secondary-color);
+  padding: 15vh 23vw;
 }
 
 .quote {
+  margin-bottom: 0;
   font-size: 36px;
   font-style: italic;
   color: var(--quote-color);
+}
+
+.quote-author {
+  margin-top: 0;
+  text-align: right;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 #copyright {
